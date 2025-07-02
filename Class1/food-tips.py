@@ -1,4 +1,4 @@
-# tips=int(input("Enter tip percentage: "))
+# tip=int(input("Enter tip percentage: "))
 
 choice=int(input("""
 Select your choice:
@@ -8,14 +8,14 @@ Select your choice:
 4 - type number
 """))
 
-if tips == 1:
+if choice == 1:
     print("standart")
-elif tips == 2:
+elif choice == 2:
     print("Good")
-elif tips == 3:
+elif choice == 3:
     print("Great")
-elif tips > 4:
-    tips=int(input("Enter tip percentage: "))
+elif choice == 4:
+    tip=int(input("Enter tip percentage: "))
     if tip > 20:
         print("My hero")
     else:
